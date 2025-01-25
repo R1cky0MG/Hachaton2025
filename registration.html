@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Регистрация</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=IBM+Plex+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/reg.css" />
+
+    
+	</head>
+	<body>
+   
+				</div>
+  </div>
+		<div class="container">
+      <div class="uponform">
+  <div class="uponform">
+  <button class="back-button">
+    <img src="../icon/arrow-left.svg" alt="назад" />
+  </button>
+  <div class="company-name">
+    <h2>PsychoTrack</h2>
+  </div>
+  <button class="restart-button">
+  <img src="../icon/rotate-cw.svg" alt="назад" />
+  </button>
+</div>
+</div>
+  
+			<h1 class="title">Регистрация</h1>
+			<p class="description">
+				Нажимая «Зарегистрироваться», вы принимаете
+				<a href="#">пользовательское соглашение</a> и
+				<a href="#">политику конфиденциальности</a>
+			</p>
+
+			<form id="register-form">
+				<div class="input-group">
+					<label for="first-name"></label>
+					<input
+						type="text"
+						id="first-name"
+						name="first-name"
+						placeholder="Имя"
+						required
+					/>
+				</div>
+				<div class="input-group">
+					<label for="last-name"></label>
+					<input
+						type="text"
+						id="last-name"
+						name="last-name"
+						placeholder="Фамилия"
+						required
+					/>
+				</div>
+				<div class="input-group">
+					<label for="email"></label>
+					<input type="email" id="email" placeholder="Email" required />
+				</div>
+				<div class="input-group">
+					<label for="password"></label>
+					<input type="password" id="password" placeholder="Пароль" required />
+				</div>
+				<div class="input-group">
+					<label for="confirm-password"></label>
+					<input
+						type="password"
+						id="confirm-password"
+						placeholder="Подтвердите пароль"
+						required
+					/>
+					<p id="error-message" style="color: red; display: none">
+						Пароли не совпадают
+					</p>
+				</div>
+
+				<button type="submit" class="btn">Зарегистрироваться</button>
+			</form>
+
+			<p class="login-link">Уже зарегистрированы? <a href="../pages/login.html">Войти</a></p>
+		</div>
+      <div id="language-selector">
+		<script src="../js/reg.js"></script>
+
+	</body>
+</html>
